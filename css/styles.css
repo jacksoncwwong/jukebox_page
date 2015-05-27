@@ -1,0 +1,133 @@
+/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  	border: 0;
+  	font-size: 100%;
+  	font: inherit;
+  	vertical-align: baseline;
+  	margin: 0;
+  	padding: 0
+}
+
+.wrapper {
+	width: 1366px;
+	margin: 0 auto;
+}
+
+header nav {
+	height: 80px;
+	background: white;
+}
+header nav .logo {
+	width: 151px;
+	height: 23px;
+	background: url("../jukebox_assets/jukebox-logo-blue.png");
+	float: left;
+	margin: 29px 0 0 70px;
+}
+header nav a {
+	float: right;
+	margin: 18px 0 0 15px;
+}
+header nav a:first-child {
+	margin: 18px 70px 0 15px;
+}
+header #header_bg {
+	background: #2082fd;
+}
+header #header_bg .wrapper {
+	height: 720px;
+	background: url("../jukebox_assets/hero-photo.png") no-repeat;
+	background-position: -1px 0;
+	box-sizing: border-box;
+	padding: 200px 0 0 209px;
+}
+header #header_bg .wrapper h1 {
+	font-family: "Arial Black";
+	font-size: 52px;
+	line-height: 52px;
+	color: white;
+	margin-bottom: 20px;
+}
+header #header_bg .wrapper p {
+	font-family: "Arial";
+	font-size: 22px;
+	margin-bottom: 20px;
+	color: white;
+}
+header #header_bg .wrapper img {
+
+}
+section {
+	padding-bottom: 50px;
+}
+section h2 {
+	font-family: "Arial Black";
+	font-size: 36px;
+	color: #2b95fd;
+	text-align: center;
+	margin: 70px 0 24px;
+}
+section .wrapper > p {
+	font-family: "Arial";
+	font-size: 22px;
+	color: #959595;
+	text-align: center;
+	margin-bottom: 70px;
+}
+section .wrapper > p {
+	font-family: "Arial";
+	font-size: 22px;
+	color: #959595;
+	text-align: center;
+}
+section .wrapper > p {
+	font-family: "Arial";
+	font-size: 22px;
+	color: #959595;
+	text-align: center;
+}
+section .container {
+	width: 280px;
+	height: 437px;
+	text-align: center;
+	margin-right: 54px;
+	display: inline-block;
+	box-sizing: border-box;
+	padding-top: 50px;
+}
+section #basic {
+	background: url("../jukebox_assets/rect-plan1.png");
+	margin-left: 209px;
+}
+section #plus {
+	background: url("../jukebox_assets/rect-plan2.png");
+}
+section #premium {
+	background: url("../jukebox_assets/rect-plan3.png");
+}
+section .container h3 {
+	font-family: "Arial";
+	font-weight: 700;
+	font-size: 42px;
+	color: white;
+}
+section .container .price {
+	font-family: "Arial";
+	font-weight: 700;
+	font-size: 24px;
+	color: white;
+	margin-bottom: 30px;
+}
+section .container p {
+	font-family: "Arial";
+	font-size: 18px;
+	color: white;
+	margin-bottom: 8px;
+}
+section .container .sign_up_btn {
+	width: 194px;
+	height: 51px;
+	margin: 30px auto 0;
+	background: url("../jukebox_assets/button-signup.png");
+	display: block;
+}
